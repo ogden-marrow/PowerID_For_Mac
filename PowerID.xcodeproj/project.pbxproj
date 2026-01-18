@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AD920A2E2F1C76A500FBB822 /* ARCHITECTURE.md in Resources */ = {isa = PBXBuildFile; fileRef = AD920A292F1C76A400FBB822 /* ARCHITECTURE.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		AD920A292F1C76A400FBB822 /* ARCHITECTURE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ARCHITECTURE.md; sourceTree = "<group>"; };
 		ADF844C82F1AB1BD00ED7C9A /* PowerID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +37,7 @@
 		ADF844BF2F1AB1BD00ED7C9A = {
 			isa = PBXGroup;
 			children = (
+				AD920A292F1C76A400FBB822 /* ARCHITECTURE.md */,
 				ADF844CA2F1AB1BD00ED7C9A /* PowerID */,
 				ADF844C92F1AB1BD00ED7C9A /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD920A2E2F1C76A500FBB822 /* ARCHITECTURE.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +292,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74B5SA7SFJ;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
