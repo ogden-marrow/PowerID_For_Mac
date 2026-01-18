@@ -34,7 +34,7 @@ struct GeneralSettingsView: View {
             Text("Update Interval")
                 .font(.headline)
             HStack {
-                Slider(value: $updateInterval, in: 1...10, step: 0.5) {
+                Slider(value: $updateInterval, in: 1...10, step: 1) {
                     Text("Update Interval")
                 }
                 Text("\(updateInterval, specifier: "%.1f")s")

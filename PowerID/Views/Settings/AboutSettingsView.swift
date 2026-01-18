@@ -49,7 +49,7 @@ struct AboutSettingsView: View {
 
     private var appDescriptionView: some View {
         VStack(spacing: 8) {
-            Text("Advanced Battery Monitoring for macOS")
+            Text("Advanced Battery Monitoring for macOS\n Made with intent")
                 .font(.body)
                 .multilineTextAlignment(.center)
 

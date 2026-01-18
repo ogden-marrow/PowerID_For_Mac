@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject private var batteryMonitor = BatteryMonitor()
+    @EnvironmentObject var batteryMonitor: BatteryMonitor
     @State private var selectedTab = 0
 
     var body: some View {

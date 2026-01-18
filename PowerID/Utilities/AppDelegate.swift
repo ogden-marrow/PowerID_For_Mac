@@ -9,7 +9,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
-        return true
+        let showInMenuBar = UserDefaults.standard.bool(forKey: "showInMenuBar")
+        return !showInMenuBar
     }
 
     @objc func windowDidBecomeKey(_ notification: Notification) {
